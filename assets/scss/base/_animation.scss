@@ -1,3 +1,12 @@
 .graph-bar {
-    animation: light 4s ease;
+    animation: light 4s ease infinite;
 }
+
+h1:hover, h2:hover {
+    color: $dark-salmon;
+}
+
+h3:hover, h4:hover {
+    color: $ball-blue;
+}
+

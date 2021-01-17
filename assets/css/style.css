@@ -9898,6 +9898,7 @@ ol, ul {
 
 h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
+  transition: color 1s ease;
 }
 
 h1 {
@@ -9935,7 +9936,15 @@ button {
 }
 
 .graph-bar {
-  animation: light 4s ease;
+  animation: light 4s ease infinite;
+}
+
+h1:hover, h2:hover {
+  color: #EE9480;
+}
+
+h3:hover, h4:hover {
+  color: #2AB7CA;
 }
 
 @keyframes light {
@@ -9947,7 +9956,15 @@ button {
   }
 }
 .graph-bar {
-  animation: light 4s ease;
+  animation: light 4s ease infinite;
+}
+
+h1:hover, h2:hover {
+  color: #EE9480;
+}
+
+h3:hover, h4:hover {
+  color: #2AB7CA;
 }
 
 *, *:before, *:after {
@@ -9973,6 +9990,7 @@ ol, ul {
 
 h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
+  transition: color 1s ease;
 }
 
 h1 {
