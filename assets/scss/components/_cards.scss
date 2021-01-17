@@ -1,0 +1,60 @@
+/* Main Layout */
+
+// Base
+
+.prices {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card-body {
+            padding-bottom: 0;
+        }
+
+        &__card {
+            margin-bottom: 2.5em;
+            width: 60%;
+
+            &__list {
+                width: 90%;
+                align-self: center;
+                ul {
+                    list-style-type: disc;
+                    padding-left: 10%;
+                    font-size: $small;
+                    height: 155px;
+                }
+                li {
+                    font-size: $x-small;
+                    padding: .5em 0;
+                    
+                }
+                .card__button {
+                    margin-bottom: 2em;
+                    margin-top: .5em;
+                }
+
+            }
+        }
+    }
+
+
+@media (min-width: 768px) {
+    .prices {
+        &__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .card-body {
+                padding-bottom: 0;
+            }
+    
+            &__card {
+                margin: 0 2.5em;
+                width: 16rem;
+                }
+            }
+        }
+    }
+}

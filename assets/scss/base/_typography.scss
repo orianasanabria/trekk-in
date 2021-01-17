@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5 {
+    font-family: $raleway;
+}
+
+h1 {
+    font-size: $xxxxx-large;
+    font-weight: $bold;
+}
+
+h2 {
+    font-size: $xxx-large;
+    font-weight: $bold;
+}
+
+h3 {
+    font-size: $x-large;
+    font-weight: $bold;
+}
+
+h4 {
+    font-size: xx-large;
+    font-weight: $bold;
+}
+
+p {
+    font-family: $open-sans;
+    color: $onyx;
+    font-size: $medium;
+    font-weight: $regular;
+    line-height: 1.8;
+}
+
+button {
+    font-family: $open-sans;
+    font-weight: $regular;
+    font-size: $small;
+}

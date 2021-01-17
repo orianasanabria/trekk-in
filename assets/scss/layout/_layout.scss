@@ -3,3 +3,8 @@
 @import 'main';
 @import 'prices';
 @import 'footer';
+
+.contenedor {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+}

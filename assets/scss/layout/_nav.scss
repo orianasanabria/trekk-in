@@ -1,0 +1,61 @@
+/* Navigation Layout */
+
+// Base
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+    &__navbar__list{
+        display: none
+    }
+
+    &__user {
+        display: none
+    }
+
+    &__burger {
+        display: visible;
+        font-size: $xx-large;
+    }
+}
+
+@media (min-width: 768px) {
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 0;
+
+        &__navbar{
+            display: flex;
+            align-items: center;
+            
+            &__list {
+                padding-left: 1.5rem;
+                display: flex;
+
+                &--item a{
+                    padding: 1rem;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &__user {
+            display: flex;
+            align-items: center;
+            
+            &__list--item a{
+                padding-right: 1em;
+                text-decoration: none;
+            }
+        }
+
+        &__burger {
+            display: none;
+        }
+    }
+}

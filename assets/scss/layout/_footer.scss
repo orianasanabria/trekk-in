@@ -1,0 +1,48 @@
+/* Footer Layout */
+
+// Base
+
+.footer {
+    background-color: $raising-black;
+    color: $lavender-gray;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+
+    &__links__list {
+        display: flex;
+        justify-content: space-evenly;
+        li a {
+            padding-right: 1.5em;
+            text-decoration: none;
+        }
+    }
+
+    &__copy__list {
+        display: flex;
+        padding-top: 2em;
+        justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+        .footer {
+            flex-direction: row;
+            justify-content: space-between;
+    
+            &__links__list {
+                display: flex;
+    
+                li a {
+                    padding-right: 1.5em;
+                    text-decoration: none;
+                }
+            }
+
+            &__copy__list {
+                padding-top: 0;
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+}

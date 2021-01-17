@@ -1,0 +1,44 @@
+/* Header Layout */
+
+// Base
+
+.hero-bg {
+    background-image: url('../images/bg-hero.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 130vh;
+    background-position: center;
+}
+
+.header {
+    width: 100%;
+    padding: 5rem 0;
+
+    &__title {
+        padding-bottom: 1rem;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+    .hero-bg {
+        background-image: url('../images/bg-hero.svg');
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 120vh;
+        background-position: right;
+    }
+    
+    .header {
+        width: 24.5rem;
+        padding: 5rem 0;
+    
+        &__title {
+            padding-bottom: 1rem;
+        }
+    }
+}

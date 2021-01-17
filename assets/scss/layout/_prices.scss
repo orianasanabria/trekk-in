@@ -1,0 +1,42 @@
+/* Header Layout */
+
+// Base
+.prices-bg {
+    background-image: url('../images/bg-price.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 105%;
+    background-position: center;
+}
+
+.prices {
+    margin-top: 18em;
+    &__title {
+        color: $white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .prices-bg {
+        background-image: url('../images/bg-price.svg');
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 120vh;
+        background-position: center;
+    }
+    
+    .prices {
+        margin-top: 11.5em;
+        &__title {
+            color: $white;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1em;
+        }
+    }
+}

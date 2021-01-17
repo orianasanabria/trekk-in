@@ -1,0 +1,29 @@
+.large-button{
+    background-color: $ball-blue;
+    width: 100%;
+    border: none;
+    padding: .6em 0;
+    color: $white;
+
+    &:hover {
+        background-color: $middle-blue;
+    }
+    &:focus {
+        background-color: $gray;
+    }
+}
+
+.small-button{
+    background-color: $ball-blue;
+    width: 6.5rem;
+    border: none;
+    padding: .5em 0;
+    color: $white;
+
+    &:hover {
+        background-color: $middle-blue;
+    }
+    &:focus {
+        background-color: $gray;
+    }
+}
